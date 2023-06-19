@@ -1,0 +1,67 @@
+.launchcontainer{
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes animate
+{
+  0%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  20%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  40%{
+    background-image: url(../images/Imahebackground.jpg);
+  }
+  60%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  80%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  100%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+}
+
+.launchcontainertitle {
+  text-align: center;
+  }
+  
+  .launchcontainerh1 {
+  color: #333; /* Adjust the color as needed /
+  font-size: 32px; / Adjust the font size as needed */
+  }
+  
+  .launchcontainerbutton {
+  background-color: #333; /* Adjust the background color as needed /
+  color: #fff; / Adjust the text color as needed /
+  font-size: 16px; / Adjust the font size as needed /
+  padding: 10px 20px; / Adjust the padding as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+
+  
